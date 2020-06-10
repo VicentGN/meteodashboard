@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/meteodashboard/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/meteodashboard/static/js/main.3e5a20e7.chunk.js",
-    "main.js.map": "/meteodashboard/static/js/main.3e5a20e7.chunk.js.map",
+    "main.js": "/meteodashboard/static/js/main.805da625.chunk.js",
+    "main.js.map": "/meteodashboard/static/js/main.805da625.chunk.js.map",
     "runtime-main.js": "/meteodashboard/static/js/runtime-main.6a576051.js",
     "runtime-main.js.map": "/meteodashboard/static/js/runtime-main.6a576051.js.map",
     "static/js/2.c362d982.chunk.js": "/meteodashboard/static/js/2.c362d982.chunk.js",
     "static/js/2.c362d982.chunk.js.map": "/meteodashboard/static/js/2.c362d982.chunk.js.map",
     "index.html": "/meteodashboard/index.html",
-    "precache-manifest.628f1591f434019682e9692c3ec5161a.js": "/meteodashboard/precache-manifest.628f1591f434019682e9692c3ec5161a.js",
+    "precache-manifest.6386922ebec9ee02e1acd61bdd02dd14.js": "/meteodashboard/precache-manifest.6386922ebec9ee02e1acd61bdd02dd14.js",
     "service-worker.js": "/meteodashboard/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/meteodashboard/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.c362d982.chunk.js.LICENSE.txt": "/meteodashboard/static/js/2.c362d982.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6a576051.js",
     "static/js/2.c362d982.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.3e5a20e7.chunk.js"
+    "static/js/main.805da625.chunk.js"
   ]
 }
