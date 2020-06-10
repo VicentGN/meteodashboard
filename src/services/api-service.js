@@ -1,6 +1,6 @@
 
 const baseUrl = 'https://api.openweathermap.org/data/2.5';
-const defaultValue = 'Montesa'
+const defaultValue = 'Valencia'
 const apiKey = 'd7c1d7406310d2af6b93a148f3fd2040'
 
 export async function getForecastWeatherData() {
