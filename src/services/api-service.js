@@ -1,28 +1,27 @@
 
-const baseUrl = 'https://api.openweathermap.org/data/2.5';
-const defaultValue = 'Madrid'
-const apiKey = 'd7c1d7406310d2af6b93a148f3fd2040'
+const baseUrl = 'https://polibackend.onrender.com';
 
 export async function getForecastWeatherData() {
-    const response = await fetch(`${baseUrl}/forecast?q=${defaultValue}&units=metric&APPID=${apiKey}`);
+    // Llamada al backend 
+    const response = await fetch(`${baseUrl}/meteodashboard/forecast`);
     const responseJson = await response.json();
     return responseJson;
 }
 
 export async function getWeatherData() {
-    const response = await fetch(`${baseUrl}/weather?q=${defaultValue}&units=metric&APPID=${apiKey}`);
+    const response = await fetch(`${baseUrl}/meteodashboard/weatherData`);
     const responseJson = await response.json();
     return responseJson;
 }
 
 export async function getSearchForecastWeatherData(q) {
-    const response = await fetch(`${baseUrl}/forecast?q=${q}&units=metric&APPID=${apiKey}`);
+    const response = await fetch(`${baseUrl}/meteodashboard/searchForecast/${q}`);
     const responseJson = await response.json();
     return responseJson;
 }
 
 export async function getSearchWeatherData(q) {
-    const response = await fetch(`${baseUrl}/weather?q=${q}&units=metric&APPID=${apiKey}`);
+    const response = await fetch(`${baseUrl}/meteodashboard/searchWeather/${q}`);
     const responseJson = await response.json();
     return responseJson;
 }

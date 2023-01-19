@@ -17,6 +17,12 @@ class SearchBar extends React.Component {
         })
     }
 
+    resetSearch = () =>  {
+        this.setState({
+            search: ''
+        })
+    }
+
     render() {
 
         const { handle_search } = this.props
@@ -26,6 +32,7 @@ class SearchBar extends React.Component {
             <div className="mb-3 text-center">
                 <input placeholder={'Search for a City/Location'} onChange={this.handleChange} value={search}/>
                 <button className="btn btn-primary ml-2" onClick={() => handle_search(search)}>Search</button>
+                <button className='btn btn-secondary ml-2' onClick={this.resetSearch}>Clear</button>
             </div>
         )
                 
