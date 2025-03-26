@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/**
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}**/
+
+.variable-description {
+  text-align: center;
+    transition: font 0.3s;
+    &:hover {
+        text-shadow: 2px 2px 5px lightgray;
+        font-size: 50px;
+    }
+}
+
+.dataview {
+  border: 1px solid black
+}
+
+.search-input {
+  width: 280px;
+}
+
+.clear-button {
+  width: 120px;
+}
+
+.search-button {
+  width: 120px;
+}
+
+footer {
+  background-color: lightgray;
+  border-radius: 0px 0px 10px 10px;
+  height: 90px;
+  p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
