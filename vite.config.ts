@@ -8,6 +8,7 @@ export default defineConfig({
   define: {
     __APP_ENV__: JSON.stringify(loadEnv('development', process.cwd()).APP_ENV)
   },
+  base: '/meteodashboard/',
   resolve:{
     alias: {
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
