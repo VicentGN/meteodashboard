@@ -12,7 +12,7 @@ This project uses the OpenWeatherMap API to fetch weather data and display it on
 
 
 ## Installation
-Click here to use the online version: 
+Click here to use the online version: https://vicentgn.github.io/meteodashboard/
 
 
 ## Credits
